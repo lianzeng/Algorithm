@@ -1,7 +1,7 @@
 TARGET:=ut_run
 
 libgtestpath=../googletest/googletest/make
-GXX:=g++
+GXX:=g++ 
 SRC_DIRS:=.
 C_SRCS:=$(foreach d, $(SRC_DIRS), $(wildcard $d/*.c))
 CXX_SRCS:=$(foreach d,$(SRC_DIRS), $(wildcard $d/*.cpp))
@@ -17,11 +17,11 @@ $(TARGET) : $(CXX_OBJS) $(C_OBJS)
 	$(GXX) -o $@ $^ $(LDFLAGS)
 
 $(C_OBJS) : %.o : %.c
-	$(GXX) -c -o $@ $^ $(FLAGS)
+	$(GXX) -g -c -o $@ $^ $(FLAGS)
 
 $(CXX_OBJS) : %.o : %.cpp
 	echo $@
-	$(GXX) -c -o $@ $^ $(FLAGS)
+	$(GXX) -g -c -o $@ $^ $(FLAGS)
 
 libgtest:
 	cd $(libgtestpath);make libgtest.a;cd -;
