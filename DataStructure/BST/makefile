@@ -17,6 +17,7 @@ LDFLAGS:=-L$(libgtestpath) -lgtest -lstdc++ -lpthread
 $(TARGET) : $(CXX_OBJS) $(C_OBJS)	
 	make libgtest
 	$(GXX) -o $@ $^ $(LDFLAGS)
+	@echo $(TARGET) ok! pls run using ./$(TARGET) 
 
 $(C_OBJS) : %.o : %.c
 	$(GXX) -g -c -o $@ $^ $(INCDIR)
@@ -28,5 +29,5 @@ libgtest:
 	cd $(libgtestpath);make libgtest.a;cd -;
 
 clean:
-	-rm $(C_OBJS) $(CXX_OBJS) $(TARGET) $(libgtestpath)/*.a
+	-rm $(C_OBJS) $(CXX_OBJS) $(TARGET)
 

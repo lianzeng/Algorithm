@@ -1,5 +1,10 @@
 #include <gtest/gtest.h>
+#include "BinarySearchTree.hpp"
 
+using namespace datastruct::bst;
+
+typedef BinarySearchTree<int> BinarySearchTreeInt;
+typedef BinarySearchTree<char> BinarySearchTreeChar;
 
 class TestBinarySearchTree : public ::testing::Test
 {
@@ -13,11 +18,14 @@ public:
   {
     //Code here be executed after test case
   }
+
+
 };
 
-TEST(TestBinarySearchTree, firstCase)
+TEST(TestBinarySearchTree, GivenANewTree_WhenNoOperation_ThenShouldBeAEmptyTree)
 {
-  //FAIL()<<"start from here!";
+  BinarySearchTreeInt bstree;
+  EXPECT_EQ(true, bstree.isEmptyTree()) << "The Tree Initial State is Not Empty";
 }
 
 
