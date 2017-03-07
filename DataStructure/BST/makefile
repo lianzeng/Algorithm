@@ -3,7 +3,7 @@ TARGET:=ut_bst
 
 GTEST_DIR:=../../googletest/googletest
 libgtestpath=$(GTEST_DIR)/make
-GXX:=g++ 
+GXX:=g++ -std=c++11
 
 SRC_DIRS:=.
 C_SRCS:=$(foreach d, $(SRC_DIRS), $(wildcard $d/*.c))

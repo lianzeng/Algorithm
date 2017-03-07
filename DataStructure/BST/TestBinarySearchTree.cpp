@@ -1,10 +1,12 @@
 #include <gtest/gtest.h>
 #include "BinarySearchTree.hpp"
+#include <vector>
 
 using namespace datastruct::bst;
 
-typedef BinarySearchTree<int> BinarySearchTreeInt;
-typedef BinarySearchTree<char> BinarySearchTreeChar;
+typedef int KEYTYPE ;
+typedef BinarySearchTree<KEYTYPE> BinarySearchTreeInt;
+
 
 class TestBinarySearchTree : public ::testing::Test
 {
@@ -25,9 +27,15 @@ public:
 TEST(TestBinarySearchTree, GivenANewTree_WhenNoOperation_ThenShouldBeAEmptyTree)
 {
   BinarySearchTreeInt bstree;
-  EXPECT_EQ(true, bstree.isEmptyTree()) << "The Tree Initial State is Not Empty";
+  EXPECT_EQ(true, bstree.isEmptyTree()) << "A new tree should be Empty";
 }
 
+TEST(TestBinarySearchTree, GivenAnEmptyDataSet_WhenBuildTree_ThenShouldContainZeroNode)
+{
+	std::vector<KEYTYPE> emptyDataSet;
+	BinarySearchTreeInt bstree;
+	EXPECT_EQ(0, bstree.build(emptyDataSet)) << "An empty dataset should build a tree with zero node";
+}
 
 int main(int argc, char **argv)
 {

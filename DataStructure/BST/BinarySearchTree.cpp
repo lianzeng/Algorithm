@@ -4,24 +4,7 @@
 namespace datastruct {
 namespace bst {
 
-
-
-#if 0 //will cause compile error, so move implementation to .hpp
-template<typename Key>
-BinarySearchTree::BinarySearchTree():rootNode()
-{
-
-}
-
-template<typename Key>
-BinarySearchTree::~BinarySearchTree()
-{
-
-}
-#endif
-
-
-
+//template member function can't implement in .cpp file before instantiation
 
 }//bst
 }//datastruct
