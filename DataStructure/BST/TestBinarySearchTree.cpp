@@ -45,13 +45,14 @@ TEST(TestBinarySearchTree, GivenDataSet_WhenBuildTree_ThenTreeSizeShouldEqualToD
 	std::vector<KEYTYPE> dataSet;
 	for(u8 i = 0; i < dataSize; i++)
 	{
-	  dataSet.push_back(i);
+	  dataSet.push_back(i+10);
 	}
 
 	BinarySearchTreeInt bstree;
 	bstree.build(dataSet);
 	EXPECT_FALSE(bstree.isEmptyTree());
 	EXPECT_EQ(dataSize, bstree.size()) << "tree size should equal to dataset size";
+	//bstree.showTree();
 }
 
 int main(int argc, char **argv)

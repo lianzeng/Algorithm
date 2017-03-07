@@ -5,7 +5,7 @@
 #include "TreeNode.hpp"
 #include <cstddef>
 #include <vector>
-
+#include <iostream>
 
 
 namespace datastruct {
@@ -34,8 +34,21 @@ public:
       }
     }
 
+    void showTree() const
+    {
+      scanInMiddleOrder(rootNode);
+    }
 
 private:
+    void scanInMiddleOrder(const BSTNodePtr& nodePtr) const
+    {
+        if(NULL != nodePtr)
+        {
+        	scanInMiddleOrder(nodePtr->lchild);
+        	std::cout << "key is: " << nodePtr->key << std::endl;
+        	scanInMiddleOrder(nodePtr->rchild);
+        }
+    }
     void insert(const Key& data)
     {
       Nodes.push_back(BSTNode(data));
@@ -48,6 +61,7 @@ private:
       {
 
       }
+
     }
 
 private:
@@ -55,7 +69,6 @@ private:
 	BinarySearchTree& operator= (const BinarySearchTree&);
 
 private:
-	const BSTNode EMPTY_NODE;
 	BSTNodePtr rootNode;
 
 	std::vector<BSTNode> Nodes;
