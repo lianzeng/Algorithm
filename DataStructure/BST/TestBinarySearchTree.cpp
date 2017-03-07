@@ -4,6 +4,7 @@
 
 using namespace datastruct::bst;
 
+typedef unsigned char u8;
 typedef int KEYTYPE ;
 typedef BinarySearchTree<KEYTYPE> BinarySearchTreeInt;
 
@@ -30,11 +31,27 @@ TEST(TestBinarySearchTree, GivenANewTree_WhenNoOperation_ThenShouldBeAEmptyTree)
   EXPECT_EQ(true, bstree.isEmptyTree()) << "A new tree should be Empty";
 }
 
-TEST(TestBinarySearchTree, GivenAnEmptyDataSet_WhenBuildTree_ThenShouldContainZeroNode)
+TEST(TestBinarySearchTree, GivenAnEmptyDataSet_WhenBuildTree_ThenTreeSizeShouldBeZero)
 {
 	std::vector<KEYTYPE> emptyDataSet;
 	BinarySearchTreeInt bstree;
-	EXPECT_EQ(0, bstree.build(emptyDataSet)) << "An empty dataset should build a tree with zero node";
+	bstree.build(emptyDataSet);
+	EXPECT_EQ(0, bstree.size()) << "An empty dataset should build a tree with zero node";
+}
+
+TEST(TestBinarySearchTree, GivenDataSet_WhenBuildTree_ThenTreeSizeShouldEqualToDataSetSize)
+{
+	const u8 dataSize = 1;
+	std::vector<KEYTYPE> dataSet;
+	for(u8 i = 0; i < dataSize; i++)
+	{
+	  dataSet.push_back(i);
+	}
+
+	BinarySearchTreeInt bstree;
+	bstree.build(dataSet);
+	EXPECT_FALSE(bstree.isEmptyTree());
+	EXPECT_EQ(dataSize, bstree.size()) << "tree size should equal to dataset size";
 }
 
 int main(int argc, char **argv)

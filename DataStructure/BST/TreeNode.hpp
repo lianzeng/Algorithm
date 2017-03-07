@@ -19,6 +19,9 @@ typedef TreeNode<Key>* TreeNodePtr;
   TreeNode():lchild(NULL),rchild(NULL),parent(NULL)
   {
   }
+  TreeNode(const Key& _key):lchild(NULL),rchild(NULL),parent(NULL),key(_key)
+  {
+  }
   bool isEmptyNode() const
   {
 	  return (NULL == lchild) && (NULL == rchild) && (NULL == parent);
