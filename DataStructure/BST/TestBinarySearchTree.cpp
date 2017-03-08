@@ -41,7 +41,7 @@ TEST(TestBinarySearchTree, GivenAnEmptyDataSet_WhenBuildTree_ThenTreeSizeShouldB
 
 TEST(TestBinarySearchTree, GivenDataSet_WhenBuildTree_ThenTreeSizeShouldEqualToDataSetSize)
 {
-	const u8 dataSize = 1;
+	const u8 dataSize = 5;
 	std::vector<KEYTYPE> dataSet;
 	for(u8 i = 0; i < dataSize; i++)
 	{

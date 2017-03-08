@@ -4,9 +4,8 @@
 
 #include "TreeNode.hpp"
 #include <cstddef>
-#include <vector>
 #include <iostream>
-
+#include <vector>
 
 namespace datastruct {
 namespace bst {
@@ -15,16 +14,19 @@ namespace bst {
 template<typename Key>
 class BinarySearchTree
 {
+	typedef typename TreeNode<Key>::TreeNodePtr BSTNodePtr;
 	typedef TreeNode<Key> BSTNode;
-	typedef BSTNode* BSTNodePtr;
 public:
-	BinarySearchTree():rootNode(NULL) {}
-	~BinarySearchTree() {}
+	BinarySearchTree():rootNode(NULL),nodeCount(0) {}
+	~BinarySearchTree()
+	{
+	  //TODO: free Node memory
+	}
     bool isEmptyTree() const
     {
     	return (NULL == rootNode) || (0 == size());
     }
-    size_t size() const {return Nodes.size();}
+    size_t size() const {return nodeCount;}
 
     void build(const std::vector<Key>& dataSet)
     {
@@ -51,17 +53,29 @@ private:
     }
     void insert(const Key& data)
     {
-      Nodes.push_back(BSTNode(data));
-      BSTNode& newNode = *(Nodes.end()-1);
-      if(isEmptyTree())
-      {
-    	rootNode = &newNode;
-      }
-      else
-      {
+      BSTNodePtr newNodePtr = createNewNode(data);
+      assert(newNodePtr != NULL);
+      insertToTree(rootNode, newNodePtr);
+    }
 
-      }
+   void insertToTree(BSTNodePtr& treeRoot, BSTNodePtr& newNode)
+   {
+     if(NULL != treeRoot)
+     {
+       if(*newNode < *treeRoot)
+         insertToTree(treeRoot->lchild, newNode);
+       else
+         insertToTree(treeRoot->rchild, newNode);
+     }
+     else
+       treeRoot = newNode;
+   }
 
+
+    BSTNodePtr createNewNode(const Key& data)
+    {
+      nodeCount ++;
+      return new BSTNode(data);
     }
 
 private:
@@ -70,8 +84,8 @@ private:
 
 private:
 	BSTNodePtr rootNode;
+	size_t     nodeCount;
 
-	std::vector<BSTNode> Nodes;
 };
 
 

@@ -27,11 +27,17 @@ typedef TreeNode<Key>* TreeNodePtr;
 	  return (NULL == lchild) && (NULL == rchild) && (NULL == parent);
   }
 
+  friend bool operator< (const TreeNode<Key>& left, const TreeNode<Key>& right)//non-member function
+  {
+    return (left.key) < (right.key);
+  }
+
 TreeNodePtr lchild;
 TreeNodePtr rchild;
 TreeNodePtr parent;
 Key key;
 };
+
 
 
 
