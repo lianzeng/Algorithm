@@ -32,6 +32,11 @@ typedef TreeNode<Key>* TreeNodePtr;
     return (left.key) < (right.key);
   }
 
+  friend bool operator>= (const TreeNode<Key>& left, const TreeNode<Key>& right)//non-member function
+  {
+    return !(left < right);
+  }
+
 TreeNodePtr lchild;
 TreeNodePtr rchild;
 TreeNodePtr parent;

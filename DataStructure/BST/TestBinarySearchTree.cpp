@@ -39,20 +39,45 @@ TEST(TestBinarySearchTree, GivenAnEmptyDataSet_WhenBuildTree_ThenTreeSizeShouldB
 	EXPECT_EQ(0, bstree.size()) << "An empty dataset should build a tree with zero node";
 }
 
-TEST(TestBinarySearchTree, GivenDataSet_WhenBuildTree_ThenTreeSizeShouldEqualToDataSetSize)
+TEST(TestBinarySearchTree, GivenAscendOrderDataSet_WhenBuildBST_ThenShouldKeepSameOrder)
 {
-	const u8 dataSize = 5;
-	std::vector<KEYTYPE> dataSet;
-	for(u8 i = 0; i < dataSize; i++)
-	{
-	  dataSet.push_back(i+10);
-	}
-
+	std::vector<KEYTYPE> dataSet = {1,2,3,4,5};
 	BinarySearchTreeInt bstree;
 	bstree.build(dataSet);
 	EXPECT_FALSE(bstree.isEmptyTree());
-	EXPECT_EQ(dataSize, bstree.size()) << "tree size should equal to dataset size";
-	//bstree.showTree();
+	EXPECT_EQ(dataSet.size(), bstree.size()) << "tree size should equal to dataset size";
+
+	std::vector<KEYTYPE> dataSetInAscendOrder;
+	bstree.getKeyInAscendOrder(dataSetInAscendOrder);
+	EXPECT_TRUE(dataSet == dataSetInAscendOrder) << "tree should keep same order for already ordered data";
+}
+
+TEST(TestBinarySearchTree, GivenDscendOrderDataSet_WhenBuildBST_ThenShouldInAscendOrder)
+{
+  std::vector<KEYTYPE> dataSet = {5,4,3,2,1};
+  BinarySearchTreeInt bstree;
+  bstree.build(dataSet);
+  EXPECT_FALSE(bstree.isEmptyTree());
+  EXPECT_EQ(dataSet.size(), bstree.size()) << "tree size should equal to dataset size";
+
+  std::vector<KEYTYPE> expectDataSet = {1,2,3,4,5};
+  std::vector<KEYTYPE> dataSetInAscendOrder;
+  bstree.getKeyInAscendOrder(dataSetInAscendOrder);
+  EXPECT_TRUE(expectDataSet == dataSetInAscendOrder) << "tree should in ascend order for data";
+}
+
+TEST(TestBinarySearchTree, GivenRandomOrderDataSet_WhenBuildBST_ThenShouldInAscendOrder)
+{
+  std::vector<KEYTYPE> dataSet = {5,0,-2,3,-1,6,8,4};
+  BinarySearchTreeInt bstree;
+  bstree.build(dataSet);
+  EXPECT_FALSE(bstree.isEmptyTree());
+  EXPECT_EQ(dataSet.size(), bstree.size()) << "tree size should equal to dataset size";
+
+  std::vector<KEYTYPE> expectDataSet = {-2,-1,0,3,4,5,6,8};
+  std::vector<KEYTYPE> dataSetInAscendOrder;
+  bstree.getKeyInAscendOrder(dataSetInAscendOrder);
+  EXPECT_TRUE(expectDataSet == dataSetInAscendOrder) << "tree should in ascend order for data";
 }
 
 int main(int argc, char **argv)

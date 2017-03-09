@@ -1,4 +1,6 @@
 
+//left child < root < right child
+
 #ifndef BINARY_SEARCH_TREE_HPP_
 #define BINARY_SEARCH_TREE_HPP_
 
@@ -36,19 +38,19 @@ public:
       }
     }
 
-    void showTree() const
+    void getKeyInAscendOrder(std::vector<Key>& orderKey) const
     {
-      scanInMiddleOrder(rootNode);
+      scanInMiddleOrder(rootNode, orderKey);
     }
 
 private:
-    void scanInMiddleOrder(const BSTNodePtr& nodePtr) const
+    void scanInMiddleOrder(const BSTNodePtr& nodePtr,std::vector<Key>& orderKey) const
     {
         if(NULL != nodePtr)
         {
-        	scanInMiddleOrder(nodePtr->lchild);
-        	std::cout << "key is: " << nodePtr->key << std::endl;
-        	scanInMiddleOrder(nodePtr->rchild);
+        	scanInMiddleOrder(nodePtr->lchild, orderKey);
+        	orderKey.push_back(nodePtr->key);
+        	scanInMiddleOrder(nodePtr->rchild, orderKey);
         }
     }
     void insert(const Key& data)
