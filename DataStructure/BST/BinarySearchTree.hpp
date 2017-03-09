@@ -19,11 +19,11 @@ class BinarySearchTree
 	typedef typename TreeNode<Key>::TreeNodePtr BSTNodePtr;
 	typedef TreeNode<Key> BSTNode;
 public:
-	BinarySearchTree():rootNode(NULL),nodeCount(0) {}
-	~BinarySearchTree()
-	{
+	  BinarySearchTree():rootNode(NULL),nodeCount(0) {}
+	  ~BinarySearchTree()
+	  {
 	  //TODO: free Node memory
-	}
+	  }
     bool isEmptyTree() const
     {
     	return (NULL == rootNode) || (0 == size());
@@ -38,12 +38,26 @@ public:
       }
     }
 
+    BSTNodePtr findElement(const Key key) const
+    {
+      return findElementRecursive(rootNode, key);
+    }
+
     void getKeyInAscendOrder(std::vector<Key>& orderKey) const
     {
       scanInMiddleOrder(rootNode, orderKey);
     }
 
 private:
+    BSTNodePtr findElementRecursive(const BSTNodePtr& treeRoot, const Key& key)const
+    {
+      if(NULL == treeRoot) return NULL;
+      if(key == treeRoot->key) return treeRoot;
+      else if(key > treeRoot->key)
+        return findElementRecursive(treeRoot->rchild, key);
+      else
+        return findElementRecursive(treeRoot->lchild, key);
+    }
     void scanInMiddleOrder(const BSTNodePtr& nodePtr,std::vector<Key>& orderKey) const
     {
         if(NULL != nodePtr)
@@ -57,20 +71,23 @@ private:
     {
       BSTNodePtr newNodePtr = createNewNode(data);
       assert(newNodePtr != NULL);
-      insertToTree(rootNode, newNodePtr);
+      insertToTree(NULL, rootNode, newNodePtr);
     }
 
-   void insertToTree(BSTNodePtr& treeRoot, BSTNodePtr& newNode)
+   void insertToTree(const BSTNodePtr parent, BSTNodePtr& treeRoot, BSTNodePtr& newNode)
    {
      if(NULL != treeRoot)
      {
        if(*newNode < *treeRoot)
-         insertToTree(treeRoot->lchild, newNode);
+         insertToTree(treeRoot, treeRoot->lchild, newNode);
        else
-         insertToTree(treeRoot->rchild, newNode);
+         insertToTree(treeRoot, treeRoot->rchild, newNode);
      }
      else
+     {
        treeRoot = newNode;
+       treeRoot->parent = parent;
+     }
    }
 
 

@@ -80,6 +80,25 @@ TEST(TestBinarySearchTree, GivenRandomOrderDataSet_WhenBuildBST_ThenShouldInAsce
   EXPECT_TRUE(expectDataSet == dataSetInAscendOrder) << "tree should in ascend order for data";
 }
 
+TEST(TestBinarySearchTree, GivenASpecialDataSet_WhenBuildBST_ThenTheParentRelationShouldOk)
+{
+//    5
+//  3   6
+//2       7
+  std::vector<KEYTYPE> dataSet = {5,3,6,2,7};
+  BinarySearchTreeInt bstree;
+  bstree.build(dataSet);
+
+  EXPECT_EQ(3,(bstree.findElement(2))->parent->key);
+  EXPECT_EQ(5,(bstree.findElement(3))->parent->key);
+  EXPECT_EQ(6,(bstree.findElement(7))->parent->key);
+  EXPECT_EQ(5,(bstree.findElement(6))->parent->key);
+  EXPECT_EQ(NULL,(bstree.findElement(5))->parent);
+
+}
+
+
+
 int main(int argc, char **argv)
 {
   ::testing::InitGoogleTest(&argc, argv);
