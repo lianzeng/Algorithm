@@ -1,0 +1,17 @@
+
+Heap(minHeap,maxHeap), with 7 test case, The Heap class is a template class ,
+
+template<typename Compare = std::less<ValueType> > class Heap;
+
+Heap<less<ValueType >> maxHeap(vec);
+Heap<greater_equal<ValueType>> minHeap(vec); 
+
+C++ code URL:  http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle
+
+TEST_F(TestHeap, Test1_buildEmptyHeap)    { Test_buildEmptyHeap(); }
+TEST_F(TestHeap, Test2_buildMaxHeap)      { Test_buildMaxHeap();  }
+TEST_F(TestHeap, Test3_buildMinHeap)      { Test_buildMinHeap();  }
+TEST_F(TestHeap, Test4_buildHeap_SameValue){Test_buildHeap_SameValue();}
+TEST_F(TestHeap, Test5_popOneFromMaxHeap) { Test_popOneFromMaxHeap(); }
+TEST_F(TestHeap, Test6_popFromHeap)       { Test_popFromHeap(); }
+TEST_F(TestHeap, Test7_pushNewDataToHeap) { Test_pushNewDataToHeap();}
