@@ -7,6 +7,14 @@ QueueNode包含2部分：新的子问题和历史选择，历史选择在不断�
 2)递归结果的构造(自底向上)中子树区间的界定（extendWaysWithNewCoin:waysStart,NumWays），这个子树可以缓存(hashMap<problem, solution>,  
 solution=vector<vector<T>>)，test结果会输出cacheMiss, cacheHit,  getOrUpdate() 函数实现的非常棒！！
 
-每个解决方案其实就是一个叶子节点到根节点的路径(vector<Node>),所有的路径用vector<vector<Node>>表示. 这个程序对于 最小币值不是1的情况也是test Ok的; 
+每个解决方案其实就是一个叶子节点到根节点的路径(vector<Node>),所有的路径用vector<vector<Node>>表示. 这个程序对于 最小币值不是1的情况也是test Ok的;
+
+  Programe:  coin combination, output all the possible combinations.
+  The result construct process is good for deep understand of tree.
+  
+  CoinChange: recursive(with memory-cache), extend solution from bottom to top.
+  CoinChangeIter: non-recursive,extend solution from top to bottom.
+  
+  The Result output directly show the solution construct sequence.
 
 C++ source code:   http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator 
