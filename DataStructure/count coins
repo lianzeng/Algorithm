@@ -1,0 +1,12 @@
+
+硬币组合，打印所有的组合情况，递归+非递归 两种实现方式。
+
+1)非递归实现(层序遍历，每个币值对应一层，叶子节点就是最小币值，使用Queue，从顶向下扩展答案，QueueNode = pair<newProblem, HistorySolution>)，
+QueueNode包含2部分：新的子问题和历史选择，历史选择在不断的累积直到叶子节点。  
+
+2)递归结果的构造(自底向上)中子树区间的界定（extendWaysWithNewCoin:waysStart,NumWays），这个子树可以缓存(hashMap<problem, solution>,  
+solution=vector<vector<T>>)，test结果会输出cacheMiss, cacheHit,  getOrUpdate() 函数实现的非常棒！！
+
+每个解决方案其实就是一个叶子节点到根节点的路径(vector<Node>),所有的路径用vector<vector<Node>>表示. 这个程序对于 最小币值不是1的情况也是test Ok的; 
+
+C++ source code:   http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator 
