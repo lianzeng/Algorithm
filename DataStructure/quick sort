@@ -1,0 +1,6 @@
+
+quick sort:
+implementation both recursive and non-recursive(pre-order traversal),these two ways have common method, 
+a good program I've ever made,求3元素的中值代码简洁优美;
+
+C++ source code with unit test:  http://www.cyber-dojo.org/kata/edit/95555C4F5A?avatar=seal
