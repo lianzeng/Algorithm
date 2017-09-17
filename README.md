@@ -30,5 +30,5 @@
  
  12.括号配对: http://www.cyber-dojo.org/kata/edit/EFC4D1BBB0?avatar=ray 
  
- 
+ 13.24点游戏： http://www.cyber-dojo.org/kata/edit/EA0518D02A?avatar=puffin 
 
