@@ -8,7 +8,7 @@ c++ source code with unit test:  http://www.cyber-dojo.org/kata/edit/4E83487C30?
 s.push(root);
 while(!s.empty()) //s=stack or queue;
 {
-  p = s.top(); 
+  p = s.top(); s.pop(); 
   if(isLeaf(p)) //叶子节点，开始回溯
   {
     map[p]=visited; 
