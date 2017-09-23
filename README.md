@@ -35,3 +35,5 @@
  14.变位词生成（给定字符串，全排列）：  http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture   
 
  15.Eight Queens : http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda
+ 
+ 16.fibonacci:  http://www.cyber-dojo.org/kata/edit/B1ABF0E956?avatar=snake
