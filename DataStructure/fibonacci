@@ -1,0 +1,15 @@
+
+斐波那契数：备忘录的经典例子，最关键的函数getOrUpdate(), 这个函数是递归，动态规划 算法的加速关键。
+
+int fibonacci(int n)
+{
+  if(0 == n) return 0;
+  if(1 == n) return 1;
+  return getOrUpdate(n);
+}
+int getOrUpdate(int n)
+{
+  static int cache[MAX] = {0};
+  if(cache[n] >0) return cache[n];
+  return cache[n] = fibonacci (n-1) + fibonacci (n-2);
+}
