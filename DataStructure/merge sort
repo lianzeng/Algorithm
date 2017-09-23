@@ -1,3 +1,28 @@
 merge sort:  in both recursive and non-recursive(post-order traversal), a good program I've ever made;
 
 c++ source code with unit test:  http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray
+
+
+非递归遍历树的基本框架（归并排序，后序遍历），快速排序的框架更简单（前序遍历）：
+
+s.push(root);
+while(!s.empty()) //s=stack or queue;
+{
+  p = s.top(); 
+  if(isLeaf(p)) //叶子节点，开始回溯
+  {
+    map[p]=visited; 
+    continue;
+  }
+  if(isInRecursiveState(p)) // map[lchild]==unvisited && map[rchild]==unvisited
+  {
+     s.push(p); s.push(rchild);s.push(lchild); //post-order traversal
+  }
+ else //if(isInBacktraceState(p))// map[lchild]==visited && map[rchild]==visited, 这里的判断条件取决于压栈顺序！
+ {
+    merge(lchild, rchild);
+     map[p]=visited;
+ }
+  
+}
+
