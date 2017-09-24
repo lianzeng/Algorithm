@@ -39,3 +39,5 @@
  16.fibonacci:  http://www.cyber-dojo.org/kata/edit/B1ABF0E956?avatar=snake
  
  17.Find Path Avoid Obstacles: http://www.cyber-dojo.org/kata/edit/9436CD7F39?avatar=peacock
+ 
+ 18.Factorize prime factors质因数分解:  http://www.cyber-dojo.org/kata/edit/02F1E2DDCE?avatar=ostrich
