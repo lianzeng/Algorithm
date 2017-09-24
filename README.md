@@ -37,3 +37,5 @@
  15.Eight Queens : http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda
  
  16.fibonacci:  http://www.cyber-dojo.org/kata/edit/B1ABF0E956?avatar=snake
+ 
+ 17.Find Path Avoid Obstacles: http://www.cyber-dojo.org/kata/edit/9436CD7F39?avatar=peacock
