@@ -41,3 +41,5 @@
  17.Find Path Avoid Obstacles: http://www.cyber-dojo.org/kata/edit/9436CD7F39?avatar=peacock
  
  18.Factorize prime factors质因数分解:  http://www.cyber-dojo.org/kata/edit/02F1E2DDCE?avatar=ostrich
+ 
+ 19.magic square(行列对角 和相等):  http://www.cyber-dojo.org/kata/edit/E51905E8A1?avatar=eagle
