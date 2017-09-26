@@ -43,3 +43,5 @@
  18.Factorize prime factors质因数分解:  http://www.cyber-dojo.org/kata/edit/02F1E2DDCE?avatar=ostrich
  
  19.magic square(行列对角 和相等):  http://www.cyber-dojo.org/kata/edit/E51905E8A1?avatar=eagle
+ 
+ 20.100doors switch: http://www.cyber-dojo.org/kata/edit/8135892EB1?avatar=lion
