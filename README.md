@@ -47,3 +47,5 @@
  20.100doors switch: http://www.cyber-dojo.org/kata/edit/8135892EB1?avatar=lion
 
  21.random reorder array: http://www.cyber-dojo.org/kata/edit/79733EA557?avatar=whale
+ 
+ 22.combine to largest number:  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird 
