@@ -26,7 +26,7 @@
  
  10.binary search for sorted vector: http://www.cyber-dojo.org/kata/edit/54403B2B1A?avatar=penguin
  
- 11.硬币组合，打印具体的组合信息，递归+非递归 :  http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator
+ 11.Count Coins 硬币组合，递归+非递归 :  http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator
  
  12.括号配对: http://www.cyber-dojo.org/kata/edit/EFC4D1BBB0?avatar=ray 
  
