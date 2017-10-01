@@ -49,3 +49,5 @@
  21.random reorder array: http://www.cyber-dojo.org/kata/edit/79733EA557?avatar=whale
  
  22.combine to largest number:  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird 
+ 
+ 23.find adjacent 1bits number: http://www.cyber-dojo.org/kata/edit/6801135364?avatar=panda 
