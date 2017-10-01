@@ -28,11 +28,11 @@
  
  11.Count Coins 硬币组合，递归+非递归 :  http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator
  
- 12.括号配对: http://www.cyber-dojo.org/kata/edit/EFC4D1BBB0?avatar=ray 
+ 12.Balanced Parentheses括号配对: http://www.cyber-dojo.org/kata/edit/EFC4D1BBB0?avatar=ray 
  
  13.24点游戏： http://www.cyber-dojo.org/kata/edit/EA0518D02A?avatar=puffin 
  
- 14.变位词生成（给定字符串，全排列）：  http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture   
+ 14.anagrams变位词生成（给定字符串，全排列）：  http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture   
 
  15.Eight Queens : http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda
  
@@ -50,4 +50,4 @@
  
  22.combine to largest number:  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird 
  
- 23.find adjacent 1bits number: http://www.cyber-dojo.org/kata/edit/6801135364?avatar=panda 
+ 23.find adjacent 1bits number(Diversion): http://www.cyber-dojo.org/kata/edit/6801135364?avatar=panda 
