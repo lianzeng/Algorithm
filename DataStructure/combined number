@@ -1,0 +1,5 @@
+
+combined number: form largest number，本质是个字符串排序问题，只不过字符串比较函数需要根据需求实现，不能使用标准库的比较函数。
+
+C++ Code URL:  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird 
+
