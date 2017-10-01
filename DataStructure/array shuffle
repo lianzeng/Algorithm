@@ -1,0 +1,13 @@
+
+array shuffle 利用C++11的随机数函数对象重排序列；
+
+注意：一个函数如果定义了局部的随机数生成器，应该定义为static对象，特别是engine, 否则每次调用都会生成相同的序列（不过对于调试很有帮助）；
+C++程序不要再使用库函数rand, 应使用default_random_engine类和恰当的分布类对象。
+举例：
+uniform_int_distribution<unsigned> u(0,9); default_random_engine e; cout<<u(e); 生成[0,9]之间均匀分布的整数；
+uniform_real_distribution<double> u(0,1); default_random_engine e; cout<<u(e); 生成[0,1]之间均匀分布的浮点数；
+normal_distribution<> n(4, 1.5); 正态分布，均值4，标准差1.5， default_random_engine e; cout<<lround(n(e));//舍入到最接近的整数；
+bernoulli_distribution b(0.5);default_random_engine e; bool first = b(e); 以0.5的概率返回true;
+
+
+C++ code URL:  http://www.cyber-dojo.org/kata/edit/79733EA557?avatar=whale
