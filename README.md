@@ -51,3 +51,8 @@
  22.combine to largest number:  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird 
  
  23.find adjacent 1bits number(Diversion): http://www.cyber-dojo.org/kata/edit/6801135364?avatar=panda 
+ 
+ 24.spell number in english: http://www.cyber-dojo.org/kata/edit/FC82690842?avatar=eagle 
+ 
+ 
+ 
