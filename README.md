@@ -54,5 +54,5 @@
  
  24.spell number in english: http://www.cyber-dojo.org/kata/edit/FC82690842?avatar=eagle 
  
- 
+ 25.Leap year: http://www.cyber-dojo.org/kata/edit/1927987491?avatar=ray
  
