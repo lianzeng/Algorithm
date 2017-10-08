@@ -56,3 +56,4 @@
  
  25.Leap year: http://www.cyber-dojo.org/kata/edit/1927987491?avatar=ray
  
+ 26.remove duplicate from unsorted list: http://www.cyber-dojo.org/kata/edit/F00D0FBB1B?avatar=lizard
