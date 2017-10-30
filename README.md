@@ -58,6 +58,8 @@
  
  26.remove duplicate from unsorted list: http://www.cyber-dojo.org/kata/edit/F00D0FBB1B?avatar=lizard
  
- 27.buy book with a max discount, DP. use Cache and Quick-Cut to improve performance.  http://www.cyber-dojo.org/kata/edit/28325E5432?avatar=dolphin 
+ 27.buy book with a best discount, DP. use Cache and Quick-Cut to improve performance.  http://www.cyber-dojo.org/kata/edit/28325E5432?avatar=dolphin 
  
  28. BigNumberPlus(positive and negative number) http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray 
+ 
+ 29.SearchPath skip obstacle with no more than required steps: http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo
