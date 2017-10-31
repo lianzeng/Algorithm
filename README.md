@@ -62,6 +62,6 @@
  
  28. BigNumberPlus(positive and negative number) http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray 
  
- 29.SearchPath skip obstacle with no more than required steps: http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo
+ 29.SearchPath Any Start,End with required steps: http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo
  
  30.Candy Dispatch: http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala
