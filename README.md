@@ -65,3 +65,5 @@
  29.SearchPath Any Start&&End, with required steps: http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo
  
  30.Candy Dispatch: http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala
+ 
+ 31.print binary tree gracefuly:  http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
