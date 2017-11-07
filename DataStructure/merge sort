@@ -3,26 +3,42 @@ merge sort:  in both recursive and non-recursive(post-order traversal), a good p
 c++ source code with unit test:  http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray
 
 
-非递归遍历树的基本框架（归并排序，后序遍历），快速排序的框架更简单（前序遍历）：
+非递归遍历树的基本框架,适用于前序，中序，后序遍历： 比如归并排序 是 后序遍历， 快速排序是前序遍历：
 
 s.push(root);
-while(!s.empty()) //s=stack or queue;
+while(!s.empty()) 
 {
-  p = s.top(); s.pop(); 
+  p = s.top(); s.pop(); //s=stack or FIFO_queue or priority_queue;
+  
   if(isLeaf(p)) //叶子节点，开始回溯
   {
-    map[p]=visited; 
-    continue;
+    visit(p);    
   }
-  if(isInRecursiveState(p)) // map[lchild]==unvisited && map[rchild]==unvisited
+  else if(isInRecursiveState(p)) //wait after child become visited if in-order or post-order.
   {
-     s.push(p); s.push(rchild);s.push(lchild); //post-order traversal
+     a) s.push(p); s.push(rchild);s.push(lchild); //post-order traversal
+     b) s.push(rchild);s.push(p);s.push(lchild);  //in-order traversal
+     c) visit(p),s.push(rchild); s.push(lchild);  //pre-order traversal, since p is visited, no need to save.
   }
- else //if(isInBacktraceState(p))// map[lchild]==visited && map[rchild]==visited, 这里的判断条件取决于压栈顺序！
- {
-    merge(lchild, rchild);
-     map[p]=visited;
- }
+  else //(isInBacktraceState(p))// hashMap[lchild]==visited || hashMap[rchild]==visited, 这里的判断条件取决于压栈顺序！
+  {    
+     visit(p);
+  }
   
 }
 
+bool isInRecursiveState(p)
+{
+  return hashMap[p.lchild]==unvisited && hashMap[p.rchild]==unvisited;
+}
+
+void visit(p)
+{
+  hashMap[p]=visited; //mark p as visited.  hashMap need initialize to unvisited.
+  process(p);
+}
+
+bool isLeaf(p)
+{
+ return p.lchild == NULL && p.rchild == NULL;
+}
