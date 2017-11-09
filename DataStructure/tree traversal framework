@@ -34,7 +34,7 @@ void traversal_DFS (root) //valid for tree&&graph.
 
 void traversal_BFS(root) //valid for tree&&graph.
 {
-  q.push(root) //q = fifo_queue
+  q.push(root) //q = fifo_queue, priority_queue(GreedyBFS)
   while(!q.empty())
   {
     p  = q.pop();
