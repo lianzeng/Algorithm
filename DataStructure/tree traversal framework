@@ -60,7 +60,7 @@ void visit(p)
   process(p);
 }
 bool visited(p)
-{         if(!isValid(p)) return true;
+{         if(!isValid(p)) return false;
   graph). return hashMap.find(p) != hashMap.end();
   tree).  return false;//since tree is no-circle graph.
 }
