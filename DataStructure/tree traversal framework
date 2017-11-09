@@ -42,7 +42,7 @@ void traversal_BFS(root) //valid for tree&&graph.
     childs = getChilds(p); //if binary-tree, childs = lchild + rchild. if graph, childs = adjacent vertex of p.
     for(auto& c : childs)
     {
-      if(!visited(c))
+      if(!visited(c)) //for tree, no need this if().
         q.push(c);
     }
   }
