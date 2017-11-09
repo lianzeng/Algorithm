@@ -51,7 +51,7 @@ void traversal_BFS(root) //valid for tree&&graph.
 
 bool isInRecursiveState(p)
 {
-  return hashMap[p.lchild]==unvisited && hashMap[p.rchild]==unvisited;
+  return !visited(p.lchild) && !visited(p.rchild);
 }
 
 void visit(p)
