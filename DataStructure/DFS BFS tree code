@@ -1,7 +1,8 @@
 
 C++ code URL: http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
 
-print the binary-tree-traversal-order,includ : DFS pre/in/post order, recursive&&Iteration; The Iteration implement a unity framework.
+binary-tree-traversal-order,include : DFS pre/in/post order, recursive&&Iteration implement; The Iteration implement a unity framework.
+Besides, also implement BFS.
 
 here list the output:
 
