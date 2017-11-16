@@ -1,7 +1,7 @@
-merge sort:  in both recursive and non-recursive(post-order traversal), a good program I've ever made;
 
-c++ source code (merge sort,recursive,non-recursive):  http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray
-binary tree traversal order print : http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
+
+merge sort,recursive,non-recursive:  http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray
+binary tree traversal DFS,BFS using below framework(and print) : http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
 
 1.非递归遍历树的基本框架,适用于前序，中序，后序遍历： 比如归并排序 是 后序遍历， 快速排序是前序遍历;
 2.BFS(breadth-first-search) = DFS(pre_order) + Fifo_Queue.
