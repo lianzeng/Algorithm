@@ -67,3 +67,5 @@
  30.Candy Dispatch: http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala
  
  31.DFS-BFS(print tree):  http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
+ 
+ 32.Red-Black-BST(print): http://www.cyber-dojo.org/kata/edit/A40C923CAD?avatar=squid
