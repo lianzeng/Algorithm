@@ -66,4 +66,4 @@
  
  30.Candy Dispatch: http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala
  
- 31.print binary tree gracefuly:  http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
+ 31.DFS-BFS(print tree):  http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
