@@ -1,0 +1,48 @@
+
+red black BST tree, print the tree. C++ code URL: http://www.cyber-dojo.org/kata/edit/A40C923CAD?avatar=squid
+
+reference:
+1).book refer to <Algorithms>, 4th Edition by Robert Sedgewick and Kevin Wayne.
+2).java code refer to: https://github.com/lianzeng/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/RedBlackBST.java
+3).C++11 use shared_ptr<Node>;
+
+implemented interface:
+
+0)RedBlackBST()
+1)build(Vector<pair>)//convert a list of elements to tree.
+2)insert(<Key,Value>)://insert one element<key,value>
+3)remove(key)//remove <key,value> if contain.
+  removeMin()//Removes the smallest key and associated value from tree
+  removeMax()//
+4)find(key)//return value or INVALID_VALUE.
+5)contain(key)const//
+6)remove(key);removeMin();removeMax()//Removes the <key,value> from tree
+7)isBST()const // left subtree < root < right subtree
+8)size()//total elements
+9)height()const;//0=one node tree, -1=empty tree;
+10)min()const, max()const//return smallest/largest key
+11)select(int k) ;//Return the kth smallest key in the tree,eg:k=3 menas the fourth.
+12)keys();// Returns all keys in ascend order as a vector,to support for_each.
+13)isEmpty()const
+
+14)to implement: 
+   floor(Key key);//Returns the largest key in the tree less than or equal to key.
+   ceiling(Key key);//Returns the smallest key in the tree greater than or equal to key
+   rank(Key key);//number of keys less than key
+
+
+
+
+////////////////////////////////////////////////ut case example
+[ RUN      ] RedBlackBST.ascendOrderinput
+
+ RedBlackTree height is 3 , original tree nodes 10,  '#' means nullNode, show key of each node. 
+             h
+
+       c           r
+
+    a     e     m     x
+
+  #   # #   # l   p s   #
+
+[       OK ] RedBlackBST.ascendOrderinput (0 ms)
