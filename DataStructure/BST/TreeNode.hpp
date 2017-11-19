@@ -14,7 +14,7 @@ namespace bst {
 template<typename Key>
 struct TreeNode
 {
-typedef TreeNode<Key>* TreeNodePtr;
+typedef TreeNode<Key>* TreeNodePtr;//TODO: use std::shared_ptr<TreeNode>
 
   TreeNode():lchild(NULL),rchild(NULL),parent(NULL)
   {
