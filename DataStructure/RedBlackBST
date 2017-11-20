@@ -4,7 +4,8 @@ red black BST tree, print the tree. C++ code URL: http://www.cyber-dojo.org/kata
 reference:
 1).book refer to <Algorithms>, 4th Edition by Robert Sedgewick and Kevin Wayne.
 2).java code refer to: https://github.com/lianzeng/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/RedBlackBST.java
-3).C++11 use shared_ptr<Node>;
+3).C++11 use shared_ptr<Node> for node memory alloc/free;
+4).红黑树中新值是作为新节点插入的，所以树是由上向下生长；B树新值是插入到已存在的叶子节点，然后饱和分解并向上调整，所以B树是从下往上生长 的。
 
 implemented interface:
 
