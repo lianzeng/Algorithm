@@ -69,3 +69,5 @@
  31.DFS-BFS(print tree):  http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture
  
  32.Red-Black-BST(print): http://www.cyber-dojo.org/kata/edit/A40C923CAD?avatar=squid
+
+ 33.BTree(print):  http://www.cyber-dojo.org/kata/edit/8C3907844A?avatar=lizard
