@@ -76,5 +76,5 @@ DFS的后序遍历最适合的场景：在处理完子女节点后需要回溯�
    实际问题归约：如果一个问题，向下分解子问题的时候，不重复，那就是树，这时没法用cache加速，如果有重复那就是图，可以用cache加速，本质是动态规划；
 
 4.递归（深搜）有正向和逆向，逆向是从目标状态往起始状态回溯，递归有2种加速策略； 剪枝，缓存；递归的状态转移可以是树或图，如果有重叠的子问题，就是图，则可以用缓存。
-
+5.缓存加速：cache[key] = value, key= problem input = function input , value = result = function output, function 必须是无状态函数，在计算前查询cache, 有初次结果后记录cache, 比如getOrUpdate();
 
