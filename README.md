@@ -60,7 +60,7 @@
  
  27.buy book with best discount, DP. use Cache and Quick-Cut to improve performance(if not cache, will run long long time..).  http://www.cyber-dojo.org/kata/edit/28325E5432?avatar=dolphin 
  
- 28. BigNumberPlus(positive and negative number) http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray 
+ 28.BigNumberPlus(positive and negative number) http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray 
  
  29.SearchPath Any Start&&End, with required steps: http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo
  
@@ -73,3 +73,5 @@
  33.BTree(print):  http://www.cyber-dojo.org/kata/edit/8C3907844A?avatar=lizard
  
  34.queue(implement with cycle-array) :  http://www.cyber-dojo.org/kata/edit/8A351A8F54?avatar=peacock
+
+ 35.List(BiLinkList):   http://www.cyber-dojo.org/kata/edit/FC6EDD4E37?avatar=koala
