@@ -71,3 +71,5 @@
  32.Red-Black-BST(print): http://www.cyber-dojo.org/kata/edit/A40C923CAD?avatar=squid
 
  33.BTree(print):  http://www.cyber-dojo.org/kata/edit/8C3907844A?avatar=lizard
+ 
+ 34.queue(implement with cycle-array) :  http://www.cyber-dojo.org/kata/edit/8A351A8F54?avatar=peacock
