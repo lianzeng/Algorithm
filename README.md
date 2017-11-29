@@ -75,3 +75,5 @@
  34.queue(implement with cycle-array) :  http://www.cyber-dojo.org/kata/edit/8A351A8F54?avatar=peacock
 
  35.List(BiLinkList,iterator):   http://www.cyber-dojo.org/kata/edit/FC6EDD4E37?avatar=koala
+ 
+ 36.rar payload build(3GPP):  http://www.cyber-dojo.org/kata/edit/AF95025292?avatar=starfish 
