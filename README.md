@@ -6,11 +6,12 @@
  
  Currently, I have complete the following programe:
  
+
  1.[Heap(minHeap,maxHeap)](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle)
  
- 2.[remove duplicated elements from unsorted forward list] (http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish)
+ 2.[remove duplicated elements from unsorted forward list](http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish)
  
- 3.[reverse forward list] ( http://www.cyber-dojo.org/kata/edit/9405BE8673?avatar=kangaroo)
+ 3.[reverse forward list](http://www.cyber-dojo.org/kata/edit/9405BE8673?avatar=kangaroo)
  
  4.[hano tower]( http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=ostrich)
  
