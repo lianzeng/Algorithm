@@ -2,11 +2,11 @@
  
  Most of the C++ code is written in http://www.cyber-dojo.org (free online IDE with testframework,can goback to any history commit), so I just paste the URL of the source code. All the code is  written by zeng,liang. I'll continuely update this list.
  
- Note: if you open the URL, please ### Don't modify the source code without my permission.
+ ### Note: if you open the URL, please Don't modify the source code without my permission.
  
  Currently, I have complete the following programe:
  
- 1.Heap(minHeap,maxHeap):   http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle
+ 1.[Heap(minHeap,maxHeap):](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle)
  
  2.remove duplicated elements from unsorted forward_list : http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish
  
