@@ -33,7 +33,7 @@
  
  13.[24点游戏]( http://www.cyber-dojo.org/kata/edit/EA0518D02A?avatar=puffin )
  
- 14.[anagrams变位词生成（给定字符串，全排列）](  http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture   )
+ 14.[anagrams变位词,给定字符串，全排列](http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture)
 
  15.[Eight Queens]( http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda)
  
@@ -43,7 +43,7 @@
  
  18.[Factorize prime factors质因数分解](  http://www.cyber-dojo.org/kata/edit/02F1E2DDCE?avatar=ostrich)
  
- 19.[magic square(行列对角 和相等)](  http://www.cyber-dojo.org/kata/edit/E51905E8A1?avatar=eagle)
+ 19.[magic square(行列对角 和相等)](http://www.cyber-dojo.org/kata/edit/E51905E8A1?avatar=eagle)
  
  20.[100doors switch]( http://www.cyber-dojo.org/kata/edit/8135892EB1?avatar=lion)
 
