@@ -2,7 +2,7 @@
  
  Most of the C++ code is written in http://www.cyber-dojo.org (free online IDE with testframework,can goback to any history commit), so I just paste the URL of the source code. All the code is  written by zeng,liang. I'll continuely update this list.
  
- Note: if you open the URL, you could run test and add more test cases, but please Not modify the source code without my permission.
+ Note: if you open the URL, please ### Don't modify the source code without my permission.
  
  Currently, I have complete the following programe:
  
