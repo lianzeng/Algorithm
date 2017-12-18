@@ -1,10 +1,11 @@
  Algorithm and Data Structure implementation using C++ with gtest framework.
  
- Most of the C++ code is written in [cyber dojo](http://www.cyber-dojo.org) , a free online IDE with testframework. All the code is  written by zeng,liang.  I'll continuely update this list.
+ Most of the C++ code is written in [cyber dojo](http://www.cyber-dojo.org) , a free online IDE with testframework. All the code is  written by zeng,liang.  
+ I'll continuely update this list.
  
  ### Note: if you open the URL, please Don't modify the source code without my permission.
  
- Currently, I have complete the following programe:
+ Currently, I have complete the following programme:
  
 
  1.[Heap(minHeap,maxHeap)](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle)
