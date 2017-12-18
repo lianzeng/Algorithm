@@ -81,3 +81,5 @@
  37.reverse integer:  http://www.cyber-dojo.org/kata/edit/0DA6F44F7E?avatar=raccoon
  
  38.string to integer(atoi):  http://www.cyber-dojo.org/kata/edit/B2FF96870E?avatar=toucan
+ 
+ 39.remove Nth node from End of list:  http://www.cyber-dojo.org/kata/edit/55CF4A40BA?avatar=crab
