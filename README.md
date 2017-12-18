@@ -1,20 +1,20 @@
  Algorithm and Data Structure implementation using C++ with gtest framework.
  
- Most of the C++ code is written in http://www.cyber-dojo.org (free online IDE with testframework,can goback to any history commit), so I just paste the URL of the source code. All the code is  written by zeng,liang. I'll continuely update this list.
+ Most of the C++ code is written in [cyber dojo](http://www.cyber-dojo.org) , a free online IDE with testframework. All the code is  written by zeng,liang.  I'll continuely update this list.
  
  ### Note: if you open the URL, please Don't modify the source code without my permission.
  
  Currently, I have complete the following programe:
  
- 1.[Heap(minHeap,maxHeap):](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle)
+ 1.[Heap(minHeap,maxHeap)](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle)
  
- 2.remove duplicated elements from unsorted forward_list : http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish
+ 2.[remove duplicated elements from unsorted forward_list] (http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish)
  
- 3.reverse forward_list : http://www.cyber-dojo.org/kata/edit/9405BE8673?avatar=kangaroo
+ 3.[reverse forward_list] (http://www.cyber-dojo.org/kata/edit/9405BE8673?avatar=kangaroo)
  
- 4.hano tower: http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=ostrich
+ 4.[hano tower]( http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=ostrich)
  
- 5.common code pucch design(class design, not algorithm):  http://www.cyber-dojo.org/kata/edit/23057B90DF?avatar=lion
+ 5.[common code pucch design(class design)](  http://www.cyber-dojo.org/kata/edit/23057B90DF?avatar=lion)
  
  6.median of two sorted array:  http://www.cyber-dojo.org/kata/edit/C86CA72338?avatar=gopher
  
