@@ -79,3 +79,5 @@
  36.rar payload build(3GPP):  http://www.cyber-dojo.org/kata/edit/AF95025292?avatar=starfish 
  
  37.reverse integer:  http://www.cyber-dojo.org/kata/edit/0DA6F44F7E?avatar=raccoon
+ 
+ 38.string to interger(atoi):  http://www.cyber-dojo.org/kata/edit/B2FF96870E?avatar=toucan
