@@ -83,3 +83,5 @@
  38.string to integer(atoi):  http://www.cyber-dojo.org/kata/edit/B2FF96870E?avatar=toucan
  
  39.remove Nth node from End of list:  http://www.cyber-dojo.org/kata/edit/55CF4A40BA?avatar=crab
+
+ 40.merge two sorted lists: http://www.cyber-dojo.org/kata/edit/5A7866742F?avatar=heron
