@@ -3,7 +3,7 @@ cyber-dojo 可以读新建的txt文件(所以可以把文件作为输入)，但�
 可以回到任何历史状态，不能做交互式的输入。可以中断后继续编码，实时保存；可以把sessionId分享给其它人参与，代码保持独立；可以给其它人review.
 有时候网速慢会导致跑不出结果，这时候可以再跑一遍，不要误以为是死循环了。
 
-在面试中，能用递归尽量用递归，除非要求不能用，递归+备忘 == 动态规划；
+递归+备忘 == 动态规划；
 编程技巧：
 0)VS2017 windows console project  , filepath:  
 ifstream ifs("input.txt"); //the file is in same dir with current .cpp;
@@ -24,7 +24,7 @@ ifstream ifs("D:\\CodeJam\\BowlingGame\\input.txt"); //absolute path in windows
 ifstream ifs(filePathStr);  if (ifs.fail()) return error;  ifs.close();
 std::ofstream ofs(dstFileName); ofs << std::to_string(i)<< "\n";  ofs.flush();  ofs.close();
 
-https://github.com/lianzeng/Algorithm  : 所有的链接在这个网址有备份，id(lianzeng)  pwd(lianzeng69008812)
+
 
 0.gtest template: FAIL()<<"ways not correct";  
 http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=jellyfish      
