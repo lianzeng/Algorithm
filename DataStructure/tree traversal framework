@@ -49,7 +49,7 @@ void traversal_BFS(root) //valid for tree&&graph.
 }
 
 
-bool isInRecursiveState(p)
+bool isInRecursiveState(p)//note: must check childs state, can't check p state,it's wrong to do like this:  return !visited(p);
 {
   return !visited(p.lchild) && !visited(p.rchild);
 }
