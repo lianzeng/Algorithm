@@ -3,7 +3,7 @@
  Most of the C++ code is written in [cyber dojo](http://www.cyber-dojo.org) , a free online IDE with testframework. All the code is  written by zeng,liang.  
  I'll continuely update this list.
  
- ### Note: if you open the URL, please Don't modify the source code without my permission.
+ ### Note: if you open the URL, please Don't modify the source code.
  
  Currently, I have complete the following programme:
  
@@ -87,3 +87,7 @@
  39.[remove Nth node from End of list](  http://www.cyber-dojo.org/kata/edit/55CF4A40BA?avatar=crab)
 
  40.[merge two sorted lists]( http://www.cyber-dojo.org/kata/edit/5A7866742F?avatar=heron)
+ 
+ 41.[decorator c11](http://www.cyber-dojo.org/kata/edit/2C5DFC5F1B?avatar=eagle)
+ 
+ 
