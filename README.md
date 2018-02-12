@@ -60,13 +60,13 @@
  
  26.[remove duplicate from unsorted list]( http://www.cyber-dojo.org/kata/edit/F00D0FBB1B?avatar=lizard)
  
- 27.[buy book with best discount, DP. use Cache and Quick-Cut to improve performance(if not cache, will run long long time..)](  http://www.cyber-dojo.org/kata/edit/28325E5432?avatar=dolphin )
+ 27.[buy book with best discount, DP. use Cache and Quick-Cut to improve performance(if not cache, will run long long time..)](  http://www.cyber-dojo.org/kata/edit/28325E5432?avatar=dolphin )  codeJam
  
- 28.[BigNumberPlus(positive and negative number)]( http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray )
+ 28.[BigNumberPlus(positive and negative number)]( http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray ) codeJam
  
- 29.[SearchPath Any Start&&End, with required steps]( http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo)
+ 29.[SearchPath Any Start&&End, with required steps]( http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo) codeJam
  
- 30.[Candy Dispatch]( http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala)
+ 30.[Candy Dispatch]( http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala)  codeJam
  
  31.[DFS-BFS(非递归遍历)](http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture)
  
