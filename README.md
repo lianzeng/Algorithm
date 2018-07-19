@@ -90,6 +90,7 @@
  
  41.[decorator c11](http://www.cyber-dojo.org/kata/edit/2C5DFC5F1B?avatar=eagle)
  
- 42.[cJSON test case](http://www.cyber-dojo.org/kata/edit/z06fCCJqaG?avatar=ostrich )  写的几个测试用例基本覆盖了cJSON库的用法
+ 42.[cJSON test case](http://www.cyber-dojo.org/kata/edit/z06fCCJqaG?avatar=ostrich )  写的几个测试用例基本覆盖了cJSON库的用法,由于cJSON.h原始文件太大，会被cyberDojo截断，所以没法跑，但是在本地可以跑过, cJSON Github: https://github.com/DaveGamble/cJSON
+ 
  
  
