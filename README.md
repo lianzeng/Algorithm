@@ -90,4 +90,6 @@
  
  41.[decorator c11](http://www.cyber-dojo.org/kata/edit/2C5DFC5F1B?avatar=eagle)
  
+ 42.[cJSON test case](http://www.cyber-dojo.org/kata/edit/z06fCCJqaG?avatar=ostrich )  写的几个测试用例基本覆盖了cJSON库的用法
+ 
  
