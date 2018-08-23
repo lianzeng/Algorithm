@@ -8,25 +8,25 @@
  Currently, I have complete the following programme:
  
 
- 1.[Heap(minHeap,maxHeap)](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle)
+ 1.[Heap(minHeap,maxHeap)](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle) 最小堆，最大堆
  
  2.[remove duplicated elements from unsorted forward list](http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish)
  
  3.[reverse forward list](http://www.cyber-dojo.org/kata/edit/9405BE8673?avatar=kangaroo)
  
- 4.[hano tower]( http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=ostrich)
+ 4.[hano tower]( http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=ostrich) 汉诺塔
  
- 5.[common code pucch design(class design)](  http://www.cyber-dojo.org/kata/edit/23057B90DF?avatar=lion)
+ 5.[common code pucch design(class design)](  http://www.cyber-dojo.org/kata/edit/23057B90DF?avatar=lion) C++模板+继承
  
- 6.[median of two sorted array](  http://www.cyber-dojo.org/kata/edit/C86CA72338?avatar=gopher)
+ 6.[median of two sorted array](  http://www.cyber-dojo.org/kata/edit/C86CA72338?avatar=gopher) 两个有序数组的中值
  
  7.[bowling game](   http://cyber-dojo.org/kata/edit/337C5BC2C9?avatar=ostrich)
  
- 8.[merge sort(recursive and non-recursive)]( http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray) 
+ 8.[merge sort(recursive and non-recursive)]( http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray) 归并排序，递归 + 非递归
  
- 9.[quick sort (recursive and non-recursive)](  http://www.cyber-dojo.org/kata/edit/95555C4F5A?avatar=seal )
+ 9.[quick sort (recursive and non-recursive)](  http://www.cyber-dojo.org/kata/edit/95555C4F5A?avatar=seal ) 快速排序，递归 +  非递归
  
- 10.[binary search for sorted vector]( http://www.cyber-dojo.org/kata/edit/54403B2B1A?avatar=penguin)
+ 10.[binary search for sorted vector]( http://www.cyber-dojo.org/kata/edit/54403B2B1A?avatar=penguin)  二分查找
  
  11.[Count Coins 硬币组合，递归+非递归 ]( http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator)
  
@@ -36,11 +36,11 @@
  
  14.[anagrams变位词,给定字符串，全排列](http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture)
 
- 15.[Eight Queens]( http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda)
+ 15.[Eight Queens]( http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda)  八皇后
  
- 16.[fibonacci](  http://www.cyber-dojo.org/kata/edit/B1ABF0E956?avatar=snake)
+ 16.[fibonacci](  http://www.cyber-dojo.org/kata/edit/B1ABF0E956?avatar=snake)  斐波那契
  
- 17.[Find Path Avoid Obstacles]( http://www.cyber-dojo.org/kata/edit/9436CD7F39?avatar=peacock)
+ 17.[Find Path Avoid Obstacles]( http://www.cyber-dojo.org/kata/edit/9436CD7F39?avatar=peacock) 躲避障碍寻路
  
  18.[Factorize prime factors质因数分解](  http://www.cyber-dojo.org/kata/edit/02F1E2DDCE?avatar=ostrich)
  
