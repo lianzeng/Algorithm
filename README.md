@@ -49,15 +49,15 @@
 
  21.[array shuffle]( https://www.cyber-dojo.org/kata/edit/9Pyuja)
  
- 22.[combine to largest number](  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird )
+ 22.[combine to largest number](  https://www.cyber-dojo.org/kata/edit/pFecgM )
  
- 23.[find adjacent 1bits number(Diversion)]( http://www.cyber-dojo.org/kata/edit/6801135364?avatar=panda )
+ 23.[find adjacent 1bits number(Diversion)]( https://www.cyber-dojo.org/kata/edit/bUyltJ )
  
- 24.[spell number in english]( http://www.cyber-dojo.org/kata/edit/FC82690842?avatar=eagle) 
+ 24.[spell number in english]( https://www.cyber-dojo.org/kata/edit/cGEJm8) 
  
- 25.[Leap year]( http://www.cyber-dojo.org/kata/edit/1927987491?avatar=ray)
+
  
- 26.[remove duplicate from unsorted list]( http://www.cyber-dojo.org/kata/edit/F00D0FBB1B?avatar=lizard)
+ 26.[remove duplicate from unsorted list]( https://www.cyber-dojo.org/kata/edit/Hw2ARG)
  
  27.[buy book with best discount, DP. use Cache and Quick-Cut to improve performance(if not cache, will run long long time..)](  https://www.cyber-dojo.org/kata/edit/e1eWD3 )  codeJam, 动态规划，使用缓存和减枝 来加速
  
@@ -69,9 +69,9 @@
  
  31.[DFS-BFS(非递归遍历)](https://www.cyber-dojo.org/kata/edit/McTXNQ)
  
- 32.[Red-Black-BST(print)]( http://www.cyber-dojo.org/kata/edit/A40C923CAD?avatar=squid)
+ 32.[Red-Black-BST(print)]( https://www.cyber-dojo.org/kata/edit/Xvs1Q0)
 
- 33.[BTree(print)](  http://www.cyber-dojo.org/kata/edit/8C3907844A?avatar=lizard)
+ 33.[BTree(print)](  https://www.cyber-dojo.org/kata/edit/BYqkde)
  
  34.[queue(implement with cycle-array) ](  https://www.cyber-dojo.org/kata/edit/N2QHpV)
 
