@@ -59,37 +59,37 @@
  
  26.[remove duplicate from unsorted list]( http://www.cyber-dojo.org/kata/edit/F00D0FBB1B?avatar=lizard)
  
- 27.[buy book with best discount, DP. use Cache and Quick-Cut to improve performance(if not cache, will run long long time..)](  http://www.cyber-dojo.org/kata/edit/28325E5432?avatar=dolphin )  codeJam, 动态规划，使用缓存和减枝 来加速
+ 27.[buy book with best discount, DP. use Cache and Quick-Cut to improve performance(if not cache, will run long long time..)](  https://www.cyber-dojo.org/kata/edit/e1eWD3 )  codeJam, 动态规划，使用缓存和减枝 来加速
  
- 28.[BigNumberPlus(positive and negative number)]( http://www.cyber-dojo.org/kata/edit/31F00976B8?avatar=ray ) codeJam
+ 28.[BigNumberPlus(positive and negative number)]( https://www.cyber-dojo.org/kata/edit/aFuWaw ) codeJam
  
- 29.[SearchPath Any Start&&End, with required steps]( http://www.cyber-dojo.org/kata/edit/ABECD4FE8A?avatar=flamingo) codeJam
+ 29.[SearchPath Any Start&&End, with required steps](https://www.cyber-dojo.org/kata/edit/UjAYAc) 
  
- 30.[Candy Dispatch]( http://www.cyber-dojo.org/kata/edit/1BCD5F1393?avatar=koala)  codeJam
+ 30.[Candy Dispatch]( https://www.cyber-dojo.org/kata/edit/SEuu9L)  codeJam
  
- 31.[DFS-BFS(非递归遍历)](http://www.cyber-dojo.org/kata/edit/68A61E8DFB?avatar=vulture)
+ 31.[DFS-BFS(非递归遍历)](https://www.cyber-dojo.org/kata/edit/McTXNQ)
  
  32.[Red-Black-BST(print)]( http://www.cyber-dojo.org/kata/edit/A40C923CAD?avatar=squid)
 
  33.[BTree(print)](  http://www.cyber-dojo.org/kata/edit/8C3907844A?avatar=lizard)
  
- 34.[queue(implement with cycle-array) ](  http://www.cyber-dojo.org/kata/edit/8A351A8F54?avatar=peacock)
+ 34.[queue(implement with cycle-array) ](  https://www.cyber-dojo.org/kata/edit/N2QHpV)
 
- 35.[List(BiLinkList,iterator)](   http://www.cyber-dojo.org/kata/edit/FC6EDD4E37?avatar=koala)
+ 35.[List(BiLinkList,iterator)](  https://www.cyber-dojo.org/kata/edit/lw9bKt) 实现迭代器
  
- 36.[rar payload build(3GPP)](  http://www.cyber-dojo.org/kata/edit/AF95025292?avatar=starfish )
+ 36.[rar payload build(3GPP)](  https://www.cyber-dojo.org/kata/edit/Aefhn3)
  
- 37.[reverse integer](  http://www.cyber-dojo.org/kata/edit/0DA6F44F7E?avatar=raccoon)
+ 37.[reverse integer](  https://www.cyber-dojo.org/kata/edit/sccC5U)
  
- 38.[string to integer(atoi)](  http://www.cyber-dojo.org/kata/edit/B2FF96870E?avatar=toucan)
+ 38.[string to integer(atoi)](  https://www.cyber-dojo.org/kata/edit/MDvnxW) 
  
- 39.[remove Nth node from End of list](  http://www.cyber-dojo.org/kata/edit/55CF4A40BA?avatar=crab)
+ 39.[remove Nth node from End of list](  https://www.cyber-dojo.org/kata/edit/sDqsuP)
 
- 40.[merge two sorted lists]( http://www.cyber-dojo.org/kata/edit/5A7866742F?avatar=heron)
+ 40.[merge two sorted lists]( https://www.cyber-dojo.org/kata/edit/0bLbwY)
  
- 41.[decorator c11](http://www.cyber-dojo.org/kata/edit/2C5DFC5F1B?avatar=eagle)
+ 41.[decorator c11](https://www.cyber-dojo.org/kata/edit/nTHRcg) 装饰者模式
  
- 42.[cJSON test case](http://www.cyber-dojo.org/kata/edit/z06fCCJqaG?avatar=ostrich )  写的几个测试用例基本覆盖了cJSON库的用法,由于cJSON.h原始文件太大，会被cyberDojo截断，所以没法跑，但是在本地可以跑过, cJSON Github: https://github.com/DaveGamble/cJSON
+ 42.[cJSON test case](https://www.cyber-dojo.org/kata/edit/1dhMxs )  写的几个测试用例基本覆盖了cJSON库的用法,由于cJSON.h原始文件太大，会被cyberDojo截断，所以没法跑，但是在本地可以跑过, cJSON Github: https://github.com/DaveGamble/cJSON
  
  
  
