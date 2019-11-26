@@ -28,27 +28,26 @@
  
  10.[binary search for sorted vector]( https://www.cyber-dojo.org/kata/edit/lzkFVV)  二分查找
  
- 11.[Count Coins 硬币组合，递归+非递归 ]( http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator)
+ 11.[Count Coins 硬币组合，递归+非递归 ]( https://www.cyber-dojo.org/kata/edit/ejFa3H)
  
- 12.[Balanced Parentheses括号配对]( http://www.cyber-dojo.org/kata/edit/EFC4D1BBB0?avatar=ray) 
+ 12.[Balanced Parentheses括号配对]( https://www.cyber-dojo.org/kata/edit/qyPKzS) 
  
- 13.[24点游戏]( http://www.cyber-dojo.org/kata/edit/EA0518D02A?avatar=puffin )
+ 13.[24点游戏]( https://www.cyber-dojo.org/kata/edit/DnVATL )
  
- 14.[anagrams变位词,给定字符串，全排列](http://www.cyber-dojo.org/kata/edit/8BC2B9BF64?avatar=vulture)
+ 14.[anagrams变位词,给定字符串，全排列](https://www.cyber-dojo.org/kata/edit/Lnunpj)
 
- 15.[Eight Queens]( http://www.cyber-dojo.org/kata/edit/4BAABD6B55?avatar=panda)  八皇后
+ 15.[Eight Queens]( https://www.cyber-dojo.org/kata/edit/UMrKTK)  八皇后
  
- 16.[fibonacci](  http://www.cyber-dojo.org/kata/edit/B1ABF0E956?avatar=snake)  斐波那契
+ 16.[fibonacci](  https://www.cyber-dojo.org/kata/edit/HZz4Qv)  斐波那契
  
- 17.[Find Path Avoid Obstacles]( http://www.cyber-dojo.org/kata/edit/9436CD7F39?avatar=peacock) 躲避障碍寻路
+ 17.[Find Path Avoid Obstacles]( https://www.cyber-dojo.org/kata/edit/EPQyRr) 躲避障碍寻路
  
- 18.[Factorize prime factors质因数分解](  http://www.cyber-dojo.org/kata/edit/02F1E2DDCE?avatar=ostrich)
+ 18.[Factorize prime factors质因数分解](  https://www.cyber-dojo.org/kata/edit/NygRte)
  
- 19.[magic square(行列对角 和相等)](http://www.cyber-dojo.org/kata/edit/E51905E8A1?avatar=eagle)
- 
- 20.[100doors switch]( http://www.cyber-dojo.org/kata/edit/8135892EB1?avatar=lion)
+ 19.[magic square(行列对角 和相等)](https://www.cyber-dojo.org/kata/edit/nzY139)
 
- 21.[array shuffle]( http://www.cyber-dojo.org/kata/edit/79733EA557?avatar=whale)
+
+ 21.[array shuffle]( https://www.cyber-dojo.org/kata/edit/9Pyuja)
  
  22.[combine to largest number](  http://www.cyber-dojo.org/kata/edit/E8BE814637?avatar=hummingbird )
  
