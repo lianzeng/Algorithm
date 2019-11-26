@@ -8,25 +8,25 @@
  Currently, I have complete the following programme:
  
 
- 1.[Heap(minHeap,maxHeap)](http://www.cyber-dojo.org/kata/edit/3EEE4CBBC3?avatar=turtle) 最小堆，最大堆
+ 1.[Heap(minHeap,maxHeap)](https://www.cyber-dojo.org/kata/edit/c1s9FT) 最小堆，最大堆
  
- 2.[remove duplicated elements from unsorted forward list](http://www.cyber-dojo.org/kata/edit/F115685DBC?avatar=jellyfish)
+ 2.[remove duplicated elements from unsorted forward list](https://www.cyber-dojo.org/kata/edit/5hjsjc)
  
- 3.[reverse forward list](http://www.cyber-dojo.org/kata/edit/9405BE8673?avatar=kangaroo)
+ 3.[reverse forward list](https://www.cyber-dojo.org/kata/edit/v5m7qX)
  
- 4.[hano tower]( http://www.cyber-dojo.org/kata/edit/8B5E4EF5E6?avatar=ostrich) 汉诺塔
+ 4.[hano tower]( https://www.cyber-dojo.org/kata/edit/4gSMuM) 汉诺塔
  
- 5.[common code pucch design(class design)](  http://www.cyber-dojo.org/kata/edit/23057B90DF?avatar=lion) C++模板+继承
+ 5.[common code pucch design(class design)]( https://www.cyber-dojo.org/kata/edit/qyLeL5) C++模板+继承
  
- 6.[median of two sorted array](  http://www.cyber-dojo.org/kata/edit/C86CA72338?avatar=gopher) 两个有序数组的中值
+ 6.[median of two sorted array](  https://www.cyber-dojo.org/kata/edit/Z7Ymf5) 两个有序数组的中值
  
- 7.[bowling game](   http://cyber-dojo.org/kata/edit/337C5BC2C9?avatar=ostrich)
+ 7.[bowling game](   https://www.cyber-dojo.org/kata/edit/TQDmzJ)
  
- 8.[merge sort(recursive and non-recursive)]( http://www.cyber-dojo.org/kata/edit/4E83487C30?avatar=ray) 归并排序，递归 + 非递归
+ 8.[merge sort(recursive and non-recursive)]( https://www.cyber-dojo.org/kata/edit/H3F2Cg) 归并排序，递归 + 非递归
  
- 9.[quick sort (recursive and non-recursive)](  http://www.cyber-dojo.org/kata/edit/95555C4F5A?avatar=seal ) 快速排序，递归 +  非递归
+ 9.[quick sort (recursive and non-recursive)]( https://www.cyber-dojo.org/kata/edit/3bL8dx ) 快速排序，递归 +  非递归
  
- 10.[binary search for sorted vector]( http://www.cyber-dojo.org/kata/edit/54403B2B1A?avatar=penguin)  二分查找
+ 10.[binary search for sorted vector]( https://www.cyber-dojo.org/kata/edit/lzkFVV)  二分查找
  
  11.[Count Coins 硬币组合，递归+非递归 ]( http://www.cyber-dojo.org/kata/edit/56A76507E2?avatar=alligator)
  
