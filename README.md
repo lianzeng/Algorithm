@@ -44,14 +44,14 @@
  
  18.[Factorize prime factors](  https://www.cyber-dojo.org/kata/edit/NygRte) 质因数分解
  
- 19.[magic square(行列对角 和相等)](https://www.cyber-dojo.org/kata/edit/nzY139)
+ 19.[magic square(行列对角 和相等)](https://www.cyber-dojo.org/kata/edit/nzY139)  给定一个数列，组成3*3方正，任何一行/列/对角的和都相等，递归实现，每次递归选一行数，剪枝策略：行和=sum/3;代码非常的清晰易懂(宏函数技巧使用)，一气呵成，使用了bitset来辅助选择数字;
 
 
  21.[array shuffle]( https://www.cyber-dojo.org/kata/edit/9Pyuja)
  
  22.[combine to largest number](  https://www.cyber-dojo.org/kata/edit/pFecgM )
  
- 23.[find adjacent 1bits number(Diversion)]( https://www.cyber-dojo.org/kata/edit/bUyltJ )
+ 23.[find adjacent 1bits number(Diversion)]( https://www.cyber-dojo.org/kata/edit/bUyltJ ) 非常难得的一题，打印详细状态转换，迭代递推思路清晰，N bit的数是由N-1 bit的数在尾部扩展1bit(=0 ,1), 假定(N-1) bit 的数分成2组S+V，S组满足条件（has adjacent 1），V组不满足条件(又细分为偶数组和奇数组：Vodd+Veven)，奇数组是潜在转化组，只要尾部加bitvalue=1就转移到S组，由此得出结论：N bit的S组=(Sn-1) + Vodd_n-1 ； Vodd_n = Vn-1 - 转正(Vodd_n-1); Veven_n = 不满足条件 = Vn-1; 得到2个递推公式为： Sn=2*Sn-1 + VOddn-1; Voddn=Vn-1 - Voddn-1 = power(2, n-1)-Sn-1 - Voddn-1,进一步抽象得到2个公式：Yn=f1(Yn-1, Xn-1); Xn = f2(Yn-1, Xn-1); 这是一个二元状态转移方程，也是2维动态规划问题。
  
  24.[spell number in english]( https://www.cyber-dojo.org/kata/edit/cGEJm8) 
  
