@@ -61,8 +61,7 @@ void visit(p)
 }
 bool visited(p)
 {         if(!isValid(p)) return false;
-  graph). return hashMap.find(p) != hashMap.end();
-  tree).  return false;//since tree is no-circle graph.
+          return hashMap.find(p) != hashMap.end(); //graph or tree
 }
 bool isLeaf(p)
 {
