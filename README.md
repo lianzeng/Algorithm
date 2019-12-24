@@ -1,7 +1,6 @@
  ## Algorithm and Data Structure implementation using C++ with gtest framework.
  
- Most of the C++ code is written in [cyber dojo](http://www.cyber-dojo.org) , a free online IDE with testframework. All the code is  written by zeng,liang.  
- I'll continuely update this list.
+ All of the algorithm is written in C++11 online [cyber dojo](http://www.cyber-dojo.org) . All the code is  written by zeng,liang.  
  
   Note: if you open the URL, please Don't modify the source code.
  
@@ -85,7 +84,7 @@
  
  39.[remove Nth node from End of list](  https://www.cyber-dojo.org/kata/edit/sDqsuP) 从链表移除倒数第N个节点
 
- 40.[merge two sorted lists]( https://www.cyber-dojo.org/kata/edit/0bLbwY)  归并2个有序链表
+ 40.[merge two sorted lists]( https://www.cyber-dojo.org/kata/edit/0bLbwY)  归并2个有序链表,代码简洁优雅
  
  41.[decorator c11](https://www.cyber-dojo.org/kata/edit/nTHRcg) 装饰者模式
  
