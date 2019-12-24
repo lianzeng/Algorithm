@@ -31,7 +31,7 @@
  
  12.[Balanced Parentheses]( https://www.cyber-dojo.org/kata/edit/qyPKzS) 括号配对
  
- 13.[24点游戏]( https://www.cyber-dojo.org/kata/edit/DnVATL )
+ 13.[24点游戏]( https://www.cyber-dojo.org/kata/edit/DnVATL ) 关键是数据结构的设计，用来回溯计算过程
  
  14.[anagrams变位词,](https://www.cyber-dojo.org/kata/edit/Lnunpj) 全排列
 
