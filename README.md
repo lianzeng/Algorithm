@@ -44,6 +44,7 @@
  18.[Factorize prime factors](  https://www.cyber-dojo.org/kata/edit/NygRte) 质因数分解
  
  19.[magic square(数独游戏)](https://www.cyber-dojo.org/kata/edit/nzY139)  给定一个数列，组成3*3方正，任何一行/列/对角的和都相等，递归实现，每次递归选一行数，剪枝策略：行和=sum/3;代码非常的清晰易懂(宏函数技巧使用)，一气呵成，使用了bitset来辅助选择数字;
+ [数独游戏golang版本，打印所有结果](https://www.cyber-dojo.org/kata/edit/cLgCs7) , 代码简洁清晰
 
 
  21.[array shuffle]( https://www.cyber-dojo.org/kata/edit/9Pyuja)
