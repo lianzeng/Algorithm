@@ -88,9 +88,11 @@
 
  40.[merge two sorted lists]( https://www.cyber-dojo.org/kata/edit/0bLbwY)  归并2个有序链表,代码简洁优雅
  
- 41.[decorator c11](https://www.cyber-dojo.org/kata/edit/nTHRcg) 装饰者模式
+ 41.[merge N sorted link list by golang](https://www.cyber-dojo.org/kata/edit/6JP9uX) 归并N个有序链表，借助golang 的heap数据结构，实现流式输出排序后的结果，这段代码用在了生产环境中
  
- 42.[cJSON test case](https://www.cyber-dojo.org/kata/edit/1dhMxs )  写的几个测试用例基本覆盖了cJSON库的用法,由于cJSON.h原始文件太大，会被cyberDojo截断，所以没法跑，但是在本地可以跑过, cJSON Github: https://github.com/DaveGamble/cJSON
+ 42.[decorator c11](https://www.cyber-dojo.org/kata/edit/nTHRcg) 装饰者模式
+ 
+ 43.[cJSON test case](https://www.cyber-dojo.org/kata/edit/1dhMxs )  写的几个测试用例基本覆盖了cJSON库的用法,由于cJSON.h原始文件太大，会被cyberDojo截断，所以没法跑，但是在本地可以跑过, cJSON Github: https://github.com/DaveGamble/cJSON
  
  
  
