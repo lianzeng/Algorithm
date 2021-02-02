@@ -94,5 +94,5 @@
  
  43.[cJSON test case](https://www.cyber-dojo.org/kata/edit/1dhMxs )  写的几个测试用例基本覆盖了cJSON库的用法,由于cJSON.h原始文件太大，会被cyberDojo截断，所以没法跑，但是在本地可以跑过, cJSON Github: https://github.com/DaveGamble/cJSON
  
- 
+ 44.有序链表通过改造可以提升查找性能：a)采样出2层链表（类似跳表）； b)每个node变为一个小数组（类似ziplist);  c)非线形化，变为二叉搜索树；
  
